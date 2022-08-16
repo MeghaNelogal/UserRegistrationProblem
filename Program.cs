@@ -14,10 +14,16 @@ namespace RegExDemo
             //Console.WriteLine(check);
 
             //UC2
-            LastName lastName = new LastName();
-            Console.WriteLine("Please Enter your last name");
-            var check2 = lastName.ValidateFirstName(Console.ReadLine());
-            Console.WriteLine(check2);
+            //LastName lastName = new LastName();
+            //Console.WriteLine("Please Enter your last name");
+            //var check2 = lastName.ValidateFirstName(Console.ReadLine());
+            //Console.WriteLine(check2);
+
+            //UC3
+            ValidateEmail checkEmail = new ValidateEmail();
+            Console.WriteLine("Please Enter your email to check");
+            var check3 = checkEmail.ValidateEMail(Console.ReadLine());
+            Console.WriteLine(check3);
         }
     }
 }
