@@ -44,10 +44,17 @@ namespace RegExDemo
             //Console.WriteLine(check6);
 
             //UC7
-            Password3 password3 = new Password3();
+            //Password3 password3 = new Password3();
+            //Console.WriteLine("Please Enter your password to check");
+            //var check7 = password3.ValidatePassword3(Console.ReadLine());
+            //Console.WriteLine(check7);
+
+            //UC8
+            Password4 password4 = new Password4();
             Console.WriteLine("Please Enter your password to check");
-            var check7 = password3.ValidatePassword3(Console.ReadLine());
-            Console.WriteLine(check7);
+            var check8 = password4.ValidatePassword4(Console.ReadLine());
+            Console.WriteLine(check8);
         }
     }
+  
 }
