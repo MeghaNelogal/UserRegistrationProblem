@@ -20,10 +20,16 @@ namespace RegExDemo
             //Console.WriteLine(check2);
 
             //UC3
-            ValidateEmail checkEmail = new ValidateEmail();
-            Console.WriteLine("Please Enter your email to check");
-            var check3 = checkEmail.ValidateEMail(Console.ReadLine());
-            Console.WriteLine(check3);
+            //ValidateEmail checkEmail = new ValidateEmail();
+            //Console.WriteLine("Please Enter your email to check");
+            //var check3 = checkEmail.ValidateEMail(Console.ReadLine());
+            //Console.WriteLine(check3);
+
+            //UC4
+            NumberFormat mobileFormat = new NumberFormat();
+            Console.WriteLine("Please Enter your mobile no with country code");
+            var check4 = mobileFormat.ValidateMobileNo(Console.ReadLine());
+            Console.WriteLine(check4);
         }
     }
 }
