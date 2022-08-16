@@ -50,10 +50,16 @@ namespace RegExDemo
             //Console.WriteLine(check7);
 
             //UC8
-            Password4 password4 = new Password4();
-            Console.WriteLine("Please Enter your password to check");
-            var check8 = password4.ValidatePassword4(Console.ReadLine());
-            Console.WriteLine(check8);
+            //Password4 password4 = new Password4();
+            //Console.WriteLine("Please Enter your password to check");
+            //var check8 = password4.ValidatePassword4(Console.ReadLine());
+            //Console.WriteLine(check8);
+
+            //UC9
+            SampleEmails sampleEmail = new SampleEmails();
+            Console.WriteLine("Please Enter your sample emails to check");
+            var check9 = sampleEmail.ValidateEmail(Console.ReadLine());
+            Console.WriteLine(check9);
         }
     }
   
